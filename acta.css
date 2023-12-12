@@ -756,4 +756,38 @@ legend {
         width: 100%;
         display: block;
     }
+    #imgandbox1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    #imgandbox2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .pagebox {
+        width: 70%;
+    }
+    .mgoals {
+        width: 90%;
+    }
+    .goalsimage1 {
+        width: 75%;
+        height: 75%;
+    }
+    #imgandbox2 > img {
+        width: 75%;
+        height: 75%;
+    }
+    .charities {
+        flex-direction: column;
+    }
+    h1 {
+        display: none;
+    }
 }
